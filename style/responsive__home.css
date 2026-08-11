@@ -1,0 +1,219 @@
+@media (max-width: 1279px) {
+  h1 {
+    font-size: 71px;
+    font-family: Anek Tamil;
+    font-weight: 800;
+    line-height: 110.00000238418579%;
+    letter-spacing: -5%;
+    text-transform: uppercase;
+  }
+
+  .section__title {
+    font-size: 36px;
+    font-family: Anek Tamil;
+    color: #000000;
+    font-weight: 700;
+    line-height: 91.00000262260437%;
+    letter-spacing: -3%;
+    text-transform: uppercase;
+  }
+
+  .section__text {
+    padding-top: 20px;
+    font-size: 15px;
+    font-family: Geist;
+    color: #000000;
+    font-weight: 400;
+    line-height: 130.9999942779541%;
+    letter-spacing: 1%;
+  }
+
+  .community__coaching-text,
+  .community__result-text,
+  .community__supportive-text {
+    font-size: 15px;
+    font-family: Geist;
+    color: #000000;
+    font-weight: 400;
+    line-height: 130.9999942779541%;
+    letter-spacing: 1%;
+  }
+
+  .join__subtitle {
+    font-size: 15px;
+    font-family: Geist;
+    color: #000000;
+    font-weight: 400;
+    line-height: 130.9999942779541%;
+    letter-spacing: 1%;
+    text-align: center;
+  }
+  .community__potential-title,
+  .community__coaching,
+  .community__result,
+  .community__supportive {
+    border-bottom: 1px solid black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    width: 100vw;
+  }
+
+  .header__top-inner {
+    z-index: 5000;
+  }
+
+  body {
+    width: 100%;
+  }
+
+  .main {
+    padding-top: 91px;
+  }
+
+  .button-mobile {
+    display: block;
+    background: none;
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    font-weight: lighter;
+    border: none;
+    transform: rotate(-45deg);
+    transition: 0.5s ease;
+  }
+
+  .button-mobile.active {
+    color: #808cfd;
+    transform: rotate(180deg);
+    transition: 0.5s ease;
+  }
+
+  h1 {
+    font-size: 37px;
+    font-family: Anek Tamil;
+    font-weight: 800;
+    line-height: 80.0000011920929%;
+    letter-spacing: -5%;
+    text-transform: uppercase;
+    padding: 20px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .section__title {
+    font-size: 28px;
+    font-family: Anek Tamil;
+    color: #000000;
+    font-weight: 700;
+    line-height: 91.00000262260437%;
+    letter-spacing: -3%;
+    text-transform: uppercase;
+  }
+
+  .section__text {
+    font-size: 15px;
+    font-family: Geist;
+    color: #000000;
+    font-weight: 400;
+    line-height: 130.9999942779541%;
+    letter-spacing: 1%;
+  }
+
+  .train-hard__committed {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .train-hard__image-start {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid black;
+  }
+
+  .train-hard__committed-block,
+  .train-hard__experts,
+  .train-hard__dynamic {
+    width: 89%;
+    padding: 20px;
+    border-left: none;
+  }
+
+  .train-hard__experts {
+    border-bottom: 1px solid black;
+  }
+
+  .train-hard__committed-link {
+    margin-top: 20px;
+  }
+
+  .train-hard__guided {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .gallery-item-1 {
+    width: 100%;
+    order: -1;
+  }
+
+  .community__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .community__item-6 {
+    width: 100%;
+    order: -1;
+  }
+
+  .community__content-panel {
+    width: 100%;
+  }
+
+  .community__potential-title,
+  .community__coaching,
+  .community__result,
+  .community__supportive {
+    border-bottom: 1px solid black;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .community__view-link {
+    width: 97%;
+    margin: 2% auto;
+  }
+
+  .footer__logo-block {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+  }
+
+  .footer__logo-img {
+    margin: 0 auto 28px auto;
+  }
+
+  .footer__bottom {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer__info {
+    text-align: center;
+  }
+
+  .footer__hours-wrapper {
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,184 @@
+@media (max-width: 1279px) {
+  h1 {
+    font-size: 71px;
+    font-family: Anek Tamil;
+    font-weight: 800;
+    line-height: 110.00000238418579%;
+    letter-spacing: -5%;
+    text-transform: uppercase;
+  }
+
+  .section__title {
+    font-size: 36px;
+    font-family: Anek Tamil;
+    color: #000000;
+    font-weight: 700;
+    line-height: 91.00000262260437%;
+    letter-spacing: -3%;
+    text-transform: uppercase;
+  }
+
+  .section__text {
+    font-size: 17px;
+    font-family: Geist;
+    color: #000000;
+    font-weight: 400;
+    line-height: 130.9999942779541%;
+    letter-spacing: -3%;
+  }
+
+  .personal-training__text {
+    font-size: 15px;
+    font-family: Geist;
+    color: #000000;
+    font-weight: 400;
+    line-height: 130.9999942779541%;
+    letter-spacing: 1%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .header__top-inner {
+    width: 100vw;
+    z-index: 5000;
+  }
+
+  .main {
+    padding-top: 91px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .button-mobile {
+    display: block;
+    opacity: 1;
+    background: none;
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    font-weight: lighter;
+    border: none;
+    transform: rotate(-45deg);
+    transition: 0.5s ease;
+  }
+
+  .button-mobile.active {
+    color: #808cfd;
+    transform: rotate(180deg);
+    transition: 0.5s ease;
+  }
+
+  .modal-content {
+    width: 95%;
+    padding: 30px 20px;
+  }
+
+  .modal-title {
+    font-size: 28px;
+  }
+
+  .modal-subtitle {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 37px;
+    font-family: Anek Tamil;
+    font-weight: 800;
+    line-height: 80.0000011920929%;
+    letter-spacing: -5%;
+    text-transform: uppercase;
+  }
+
+  .section__title {
+    font-size: 28px;
+    font-family: Anek Tamil;
+    color: #000000;
+    font-weight: 700;
+    line-height: 91.00000262260437%;
+    letter-spacing: -3%;
+    text-transform: uppercase;
+  }
+
+  .class-types {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .class-strength,
+  .class-conditioning,
+  .class-community {
+    border-bottom: 1px solid black;
+  }
+
+  .section__inner {
+    margin: 20px;
+  }
+
+  .personal-training__title {
+    font-size: 44px;
+    font-family: Anek Tamil;
+    color: #000000;
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -5%;
+    text-align: center;
+    padding: 120px 20px 0px 20px;
+  }
+
+  .personal-training__text {
+    width: 80%;
+    padding: 0px 20px;
+  }
+
+  .footer__logo-block {
+    display: flex;
+    flex-direction: column;
+    padding: 80px 0;
+  }
+
+  .footer__logo-img {
+    margin: 0 auto 28px auto;
+  }
+
+  .footer__bottom {
+    display: flex;
+    padding: 0;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .footer__info {
+    text-align: center;
+  }
+
+  .footer__hours-wrapper {
+    margin: 0 auto;
+  }
+
+  .modal-content {
+    width: 95%;
+    padding: 30px 20px;
+  }
+
+  .modal-title {
+    font-size: 28px;
+  }
+
+  .modal-subtitle {
+    font-size: 15px;
+  }
+
+  .class-strength,
+  .class-conditioning {
+    border-right: none;
+  }
+
+  .footer-video {
+    width: 100%;
+    margin: 0;
+  }
+}

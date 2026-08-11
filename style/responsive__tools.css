@@ -1,0 +1,47 @@
+@media (max-width: 1279px) {
+}
+
+@media (max-width: 800px) {
+  .header__top-inner {
+    z-index: 5000;
+  }
+
+  .main {
+    padding-top: 91px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .button-mobile {
+    display: block;
+    background: none;
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    font-weight: lighter;
+    border: none;
+    transform: rotate(-45deg);
+    transition: 0.5s ease;
+  }
+
+  .button-mobile.active {
+    color: #808cfd;
+    transform: rotate(180deg);
+    transition: 0.5s ease;
+  }
+
+  .modal-content {
+    width: 95%;
+    padding: 30px 20px;
+  }
+
+  .modal-title {
+    font-size: 28px;
+  }
+
+  .modal-subtitle {
+    font-size: 15px;
+  }
+}

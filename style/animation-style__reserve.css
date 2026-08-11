@@ -1,0 +1,28 @@
+.animation-item {
+  opacity: 0;
+  transition:
+    opacity 0.8s ease,
+    transform 0.8s ease;
+  transition-delay: 0.3s;
+}
+
+.animation-item--left {
+  transform: translateX(-100px);
+}
+
+.animation-item--right {
+  transform: translateX(100px);
+}
+
+.animation-item--bottom {
+  transform: translateY(100px);
+}
+
+.animation-item--top {
+  transform: translateY(-50px);
+}
+
+.animation-item.visible {
+  opacity: 1;
+  transform: translate(0);
+}
