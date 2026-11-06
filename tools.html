@@ -27,6 +27,10 @@
       href="https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,700;1,700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.3.8/dist/lenis.css"
+    />
   </head>
   <body>
     <header class="header animation-item animation-item--top">
@@ -94,16 +98,318 @@
 
     <div class="overlay"></div>
 
-    <img
-      src="./media/tools/глаза-эмодзи.gif"
-      alt=""
-      class="eyes animation-item animation-item--top"
-    />
-    <p class="eyes-text animation-item animation-item--bottom">
-      Oops,<br />
-      work is still in progress.
-    </p>
+    <main class="main">
+      <section class="tools">
+        <div class="container">
+          <div class="tools__list">
+            <!-- MACRO CALCULATOR -->
+            <article
+              class="tool-card tool-card--macro animation-item--left animation-item"
+            >
+              <img
+                src="./media/tools/MACRO CALCULATOR.png"
+                alt="Macro Calculator"
+                class="tool-card__image section-image"
+              />
 
+              <img
+                src="./media/tools/MACRO CALCULATOR MOBILE.png"
+                alt="Macro Calculator"
+                class="tool-card__image section-image--mobile"
+              />
+
+              <div class="tool-card__content">
+                <h2 class="tool-card__title section-title">MACRO CALCULATOR</h2>
+                <p class="tool-card__description section-description">
+                  Calculate your daily calories and macronutrients based on your
+                  goals.
+                </p>
+                <a
+                  href="./macro-calculator/index.html"
+                  class="tool-card__button"
+                >
+                  OPEN TOOL
+                </a>
+              </div>
+            </article>
+
+            <!-- WATER CALCULATOR -->
+            <article
+              class="tool-card tool-card--water animation-item--left animation-item"
+            >
+              <img
+                src="./media/tools/WATER CALCULATOR.png"
+                alt="Water Calculator"
+                class="tool-card__image section-image"
+              />
+
+              <img
+                src="./media/tools/WATER CALCULATOR MOBILE.png"
+                alt="Macro Calculator"
+                class="tool-card__image section-image--mobile"
+              />
+
+              <div class="tool-card__content">
+                <h2 class="tool-card__title section-title">WATER CALCULATOR</h2>
+                <p class="tool-card__description section-description">
+                  Find out how much water your body needs each day based on your
+                  weight and activity level.
+                </p>
+                <a href="./" class="tool-card__button"> OPEN TOOL </a>
+              </div>
+            </article>
+
+            <!-- PLATE CALCULATOR -->
+            <article
+              class="tool-card tool-card--plate animation-item--left animation-item"
+            >
+              <img
+                src="./media/tools/PLATE CALCULATOR.png"
+                alt="Plate Calculator"
+                class="tool-card__image section-image"
+              />
+
+              <img
+                src="./media/tools/PLATE CALCULATOR MOBILE.png"
+                alt="Macro Calculator"
+                class="tool-card__image section-image--mobile"
+              />
+
+              <div class="tool-card__content">
+                <h2 class="tool-card__title section-title">PLATE CALCULATOR</h2>
+                <p class="tool-card__description section-description">
+                  Build a balanced plate and calculate the right proportions of
+                  protein, carbs, vegetables and fats.
+                </p>
+                <a href="./" class="tool-card__button"> OPEN TOOL </a>
+              </div>
+            </article>
+
+            <!-- WORKOUT TIMER -->
+            <article
+              class="tool-card tool-card--timer animation-item--left animation-item"
+            >
+              <img
+                src="./media/tools/WORKOUT TIMER.png"
+                alt="Workout timer"
+                class="tool-card__image section-image"
+              />
+
+              <img
+                src="./media/tools/WORKOUT TIMER MOBILE.png"
+                alt="Macro Calculator"
+                class="tool-card__image section-image--mobile"
+              />
+
+              <div class="tool-card__content">
+                <h2 class="tool-card__title section-title">WORKOUT TIMER</h2>
+                <p class="tool-card__description section-description">
+                  Set workout, rest and interval timers to stay focused
+                  throughout your training session.
+                </p>
+                <a href="./" class="tool-card__button"> OPEN TOOL </a>
+              </div>
+            </article>
+
+            <!-- EXERCISE SEARCH -->
+            <article
+              class="tool-card tool-card--exercise animation-item--left animation-item"
+            >
+              <img
+                src="./media/tools/EXERCISE SEARCH.png"
+                alt="Exercise Search"
+                class="tool-card__image section-image"
+              />
+
+              <img
+                src="./media/tools/EXERCISE SEARCH MOBILE.png"
+                alt="Macro Calculator"
+                class="tool-card__image section-image--mobile"
+              />
+
+              <div class="tool-card__content">
+                <h2 class="tool-card__title section-title">EXERCISE SEARCH</h2>
+                <p class="tool-card__description section-description">
+                  Search for exercises by muscle group, equipment or training
+                  goal and discover new movements.
+                </p>
+                <a href="./" class="tool-card__button"> OPEN TOOL </a>
+              </div>
+            </article>
+
+            <!-- WORKOUT PLANNER -->
+            <article
+              class="tool-card tool-card--planner animation-item--left animation-item"
+            >
+              <img
+                src="./media/tools/WORKOUT PLANNER.png"
+                alt="Workout Planner"
+                class="tool-card__image section-image"
+              />
+
+              <img
+                src="./media/tools/WORKOUT PLANNER MOBILE.png"
+                alt="Macro Calculator"
+                class="tool-card__image section-image--mobile"
+              />
+
+              <div class="tool-card__content">
+                <h2 class="tool-card__title section-title">WORKOUT PLANNER</h2>
+                <p class="tool-card__description section-description">
+                  Create your own workout plan, organize exercises and save your
+                  training routine for later.
+                </p>
+                <a href="./" class="tool-card__button"> OPEN TOOL </a>
+              </div>
+            </article>
+
+            <!-- NOTES -->
+            <article
+              class="tool-card tool-card--notes animation-item--left animation-item"
+            >
+              <img
+                src="./media/tools/NOTES.png"
+                alt="Notes"
+                class="tool-card__image section-image"
+              />
+
+              <img
+                src="./media/tools/NOTES MOBILE.png"
+                alt="Macro Calculator"
+                class="tool-card__image section-image--mobile"
+              />
+
+              <div class="tool-card__content">
+                <h2 class="tool-card__title section-title">NOTES</h2>
+                <p class="tool-card__description section-description">
+                  Save workout notes, training ideas and personal reminders in
+                  one convenient place.
+                </p>
+                <a href="./" class="tool-card__button"> OPEN TOOL </a>
+              </div>
+            </article>
+
+            <!-- PROGRESS TRACKER -->
+            <article
+              class="tool-card tool-card--tracker animation-item--left animation-item"
+            >
+              <img
+                src="./media/tools/PROGRESS TRACKER.png"
+                alt="Progress Tracker"
+                class="tool-card__image section-image"
+              />
+
+              <img
+                src="./media/tools/PROGRESS TRACKER MOBILE.png"
+                alt="Macro Calculator"
+                class="tool-card__image section-image--mobile"
+              />
+
+              <div class="tool-card__content">
+                <h2 class="tool-card__title section-title">PROGRESS TRACKER</h2>
+                <p class="tool-card__description section-description">
+                  Track your workouts and body progress over time with simple
+                  and visual statistics.
+                </p>
+                <a href="./" class="tool-card__button"> OPEN TOOL </a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__inner animation-item animation-item--bottom">
+        <div class="footer__info">
+          <!-- LOGO -->
+          <div class="footer__logo-block">
+            <img
+              class="footer__logo-img"
+              src="./media/generall/logo.svg"
+              alt="logo"
+            />
+            <span class="footer__logo-text">PrimalTraining</span>
+          </div>
+
+          <div class="footer__bottom">
+            <!-- CONTACT -->
+            <div class="footer__contact">
+              <h5 class="footer__contact-title">CONTACT</h5>
+              <a
+                class="footer__contact-email"
+                href="mailto:PrimalTraining@mail.com"
+                >Email: PrimalTraining@mail.com</a
+              >
+              <a class="footer__contact-phone" href="tel:(203) 555-5555"
+                >Phone: (203) 555-5555</a
+              >
+            </div>
+
+            <!-- OPENING HOURS -->
+            <div class="footer__hours">
+              <h5 class="footer__hours-title">OPENING HOURS</h5>
+              <div class="footer__hours-wrapper">
+                <ul class="footer__hours-days">
+                  <li class="footer__hours-day">MON – FRI</li>
+                  <li class="footer__hours-day">SATURDAYS</li>
+                  <li class="footer__hours-day">SUNDAYS</li>
+                  <li class="footer__hours-day">HOLIDAYS</li>
+                </ul>
+                <ul class="footer__hours-times">
+                  <li class="footer__hours-time">5:00 – 23:00</li>
+                  <li class="footer__hours-time">8:00 – 16:00</li>
+                  <li class="footer__hours-time">8:00 – 13:00</li>
+                  <li class="footer__hours-time">8:00 – 16:00</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- SOCIAL -->
+            <div class="footer__social">
+              <h5 class="footer__social-title">SOCIAL</h5>
+              <ul class="footer__social-list">
+                <li class="footer__social-item">
+                  <a
+                    class="footer__social-link"
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="footer__social-item">
+                  <a
+                    class="footer__social-link"
+                    href="https://x.com/"
+                    target="_blank"
+                    >X</a
+                  >
+                </li>
+                <li class="footer__social-item">
+                  <a
+                    class="footer__social-link"
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li class="footer__social-item">
+                  <a
+                    class="footer__social-link"
+                    href="https://open.spotify.com/"
+                    target="_blank"
+                    >Spotify</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
     <script src="./script/script__tools.js"></script>
   </body>
 </html>

@@ -1,7 +1,6 @@
 .animation-item {
   opacity: 0;
   transition: all 0.8s ease;
-  transition-delay: 0.3s;
 }
 
 .animation-item--left {

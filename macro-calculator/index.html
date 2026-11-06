@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MACRO CALCULATOR</title>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/anek-tamil" />
+    <link rel="icon" href="./media/generall/logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:ital,wght@0,100..900;1,100..900&family=Geist:ital,wght@0,100..900;1,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/lenis@1.3.8/dist/lenis.css"
+    />
+    <link rel="stylesheet" href="./responsive.css" />
+  </head>
+  <body>
+    <header class="header animation-item animation-item--top">
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <!-- LOGO -->
+            <div class="logo">
+              <a class="logo__link" href="../home.html">
+                <img class="logo__svg" src="./media/logo.svg" alt="logo" />
+                <span class="logo__text">PrimalTraining</span>
+              </a>
+            </div>
+
+            <!-- MENU -->
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__list-item">
+                  <a class="menu__link" href="../home.html">HOME</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__link" href="../about.html">ABOUT</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__link" href="../tools.html">TOOLS</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__link" href="../reserve.html"
+                    >RESERVE YOUR SPOT</a
+                  >
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__link" href="../tools.html">back</a>
+                </li>
+              </ul>
+            </nav>
+
+            <!-- BUTTON-MOBILE -->
+            <button class="button-mobile">&times;</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- MENU-MOBILE -->
+    <nav class="menu-mobile__nav">
+      <ul class="menu-mobile__list">
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="./home.html">HOME</a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="./about.html">ABOUT</a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="./tools.html">TOOLS</a>
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="./reserve.html"
+            >RESERVE YOUR SPOT</a
+          >
+        </li>
+        <li class="menu-mobile__item">
+          <a class="menu-mobile__link" href="../tools.html">BACK</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="overlay"></div>
+
+    <!-- MAIN -->
+    <main class="main">
+      <div class="container">
+        <section
+          class="macro-calculator"
+          aria-labelledby="macro-calculator-title"
+        >
+          <!-- HEADER -->
+          <div class="macro-calculator__header">
+            <div class="macro-calculator__header-text">
+              <h1 class="macro-calculator__title" id="macro-calculator-title">
+                MACRO CALCULATOR
+              </h1>
+
+              <p class="macro-calculator__subtitle">
+                Calculate your daily calories and macronutrients based on your
+                goals.
+              </p>
+            </div>
+
+            <picture class="macro-calculator__picture">
+              <source
+                media="(max-width: 768px)"
+                srcset="./media/MACRO CALCULATOR MOBILE.png"
+              />
+
+              <img
+                class="macro-calculator__image"
+                src="./media/MACRO CALCULATOR.png"
+                alt="Macro Calculator"
+              />
+            </picture>
+          </div>
+
+          <!-- FORM -->
+          <form class="macro-calculator__form">
+            <div class="macro-calculator__data-left">
+              <!-- WEIGHT -->
+              <div class="macro-calculator__field">
+                <label class="macro-calculator__label" for="weight">
+                  WEIGHT
+                </label>
+
+                <div class="macro-calculator__input-wrapper">
+                  <input
+                    class="macro-calculator__input"
+                    id="weight"
+                    name="weight"
+                    type="number"
+                    min="25"
+                    max="200"
+                    required
+                  />
+
+                  <span class="macro-calculator__unit"> kg </span>
+                </div>
+              </div>
+
+              <!-- HEIGHT -->
+              <div class="macro-calculator__field">
+                <label class="macro-calculator__label" for="height">
+                  HEIGHT
+                </label>
+
+                <div class="macro-calculator__input-wrapper">
+                  <input
+                    class="macro-calculator__input"
+                    id="height"
+                    name="height"
+                    type="number"
+                    min="100"
+                    max="250"
+                    step="1"
+                    required
+                  />
+
+                  <span class="macro-calculator__unit"> cm </span>
+                </div>
+              </div>
+
+              <!-- ACTIVITY LEVEL -->
+              <div class="macro-calculator__field">
+                <label class="macro-calculator__label" for="activity">
+                  ACTIVITY LEVEL
+                </label>
+
+                <select
+                  class="macro-calculator__select"
+                  id="activity"
+                  name="activity"
+                  required
+                >
+                  <option value="" disabled selected>
+                    Select activity level
+                  </option>
+
+                  <option value="1.2">Sedentary</option>
+
+                  <option value="1.375">Lightly Active</option>
+
+                  <option value="1.55">Moderately Active</option>
+
+                  <option value="1.725">Very Active</option>
+
+                  <option value="1.9">Extra Active</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="macro-calculator__data-right">
+              <!-- AGE -->
+              <div class="macro-calculator__field">
+                <label class="macro-calculator__label" for="age"> AGE </label>
+                <div class="macro-calculator__input-wrapper">
+                  <input
+                    class="macro-calculator__input"
+                    id="age"
+                    name="age"
+                    type="number"
+                    min="14"
+                    max="90"
+                    step="1"
+                    required
+                  />
+
+                  <span class="macro-calculator__unit"> years </span>
+                </div>
+              </div>
+
+              <!-- SEX -->
+              <div class="macro-calculator__field">
+                <label class="macro-calculator__label" for="sex"> SEX </label>
+
+                <select
+                  class="macro-calculator__select"
+                  id="sex"
+                  name="sex"
+                  required
+                >
+                  <option value="male">Male</option>
+
+                  <option value="female">Female</option>
+                </select>
+              </div>
+
+              <!-- GOAL -->
+              <fieldset class="macro-calculator__goal">
+                <legend class="macro-calculator__label">GOAL</legend>
+
+                <!-- LOSE -->
+                <div class="macro-calculator__goal-item">
+                  <input
+                    class="macro-calculator__goal-input"
+                    type="radio"
+                    id="goal-lose"
+                    name="goal"
+                    value="0.85"
+                  />
+
+                  <label class="macro-calculator__goal-button" for="goal-lose">
+                    <span
+                      class="macro-calculator__goal-icon macro-calculator__goal-icon--lose"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="goal-icon">&#128293;</span>
+                    Lose Weight
+                  </label>
+                </div>
+
+                <!-- MAINTAIN -->
+                <div class="macro-calculator__goal-item">
+                  <input
+                    class="macro-calculator__goal-input"
+                    type="radio"
+                    id="goal-maintain"
+                    name="goal"
+                    value="1"
+                    checked
+                  />
+
+                  <label
+                    class="macro-calculator__goal-button"
+                    for="goal-maintain"
+                  >
+                    <span
+                      class="macro-calculator__goal-icon macro-calculator__goal-icon--maintain"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="goal-icon">&#127919;</span>
+                    Maintain
+                  </label>
+                </div>
+
+                <!-- GAIN -->
+                <div class="macro-calculator__goal-item">
+                  <input
+                    class="macro-calculator__goal-input"
+                    type="radio"
+                    id="goal-gain"
+                    name="goal"
+                    value="1.1"
+                  />
+
+                  <label class="macro-calculator__goal-button" for="goal-gain">
+                    <span
+                      class="macro-calculator__goal-icon macro-calculator__goal-icon--gain"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="goal-icon">&#128170;</span>
+                    Gain Muscle
+                  </label>
+                </div>
+              </fieldset>
+            </div>
+
+            <!-- BUTTON SUBMIT -->
+            <button class="macro-calculator__button" type="submit">
+              CALCULATE
+            </button>
+          </form>
+
+          <!-- RESULTS -->
+          <section class="macro-calculator__target" aria-live="polite">
+            <h2 class="macro-calculator__target-title">YOUR DAILY TARGETS</h2>
+
+            <p class="macro-calculator__target-subtitle">
+              Based on your inputs, here are your estimated daily macronutrient
+              targets.
+            </p>
+
+            <div class="macro-calculator__results">
+              <!-- CALORIES -->
+              <article
+                class="macro-calculator__result macro-calculator__result--calories"
+              >
+                <span
+                  class="macro-calculator__result-icon macro-calculator__result-icon--calories"
+                  aria-hidden="true"
+                  ><img
+                    class="macro-calculator__result-icon-calories"
+                    src="./media/macro-calculator__result-icon-calories.png"
+                    alt="icon"
+                /></span>
+
+                <div class="macro-calculator__result-content">
+                  <h3 class="macro-calculator__result-title">CALORIES</h3>
+
+                  <p
+                    class="macro-calculator__result-number"
+                    id="result-calories"
+                  >
+                    —
+                  </p>
+
+                  <p class="macro-calculator__result-unit">kcal / day</p>
+                </div>
+              </article>
+
+              <!-- PROTEIN -->
+              <article
+                class="macro-calculator__result macro-calculator__result--protein"
+              >
+                <span
+                  class="macro-calculator__result-icon macro-calculator__result-icon--protein"
+                  aria-hidden="true"
+                >
+                  <img
+                    class="macro-calculator__result-icon-protein"
+                    src="./media/macro-calculator__result-icon-protein.png"
+                    alt="icon"
+                /></span>
+
+                <div class="macro-calculator__result-content">
+                  <h3 class="macro-calculator__result-title">PROTEIN</h3>
+
+                  <p
+                    class="macro-calculator__result-number"
+                    id="result-protein"
+                  >
+                    —
+                  </p>
+
+                  <p class="macro-calculator__result-unit">g / day</p>
+
+                  <p class="macro-calculator__result-percent">
+                    <span id="result-protein-percent">—</span>
+                    % of calories
+                  </p>
+                </div>
+              </article>
+
+              <!-- CARBS -->
+              <article
+                class="macro-calculator__result macro-calculator__result--carbs"
+              >
+                <span
+                  class="macro-calculator__result-icon macro-calculator__result-icon--carbs"
+                  aria-hidden="true"
+                >
+                  <img
+                    class="macro-calculator__result-icon-carbs"
+                    src="./media/macro-calculator__result-icon-carbs.png"
+                    alt="icon"
+                /></span>
+
+                <div class="macro-calculator__result-content">
+                  <h3 class="macro-calculator__result-title">CARBS</h3>
+
+                  <p class="macro-calculator__result-number" id="result-carbs">
+                    —
+                  </p>
+
+                  <p class="macro-calculator__result-unit">g / day</p>
+
+                  <p class="macro-calculator__result-percent">
+                    <span id="result-carbs-percent">—</span>
+                    % of calories
+                  </p>
+                </div>
+              </article>
+
+              <!-- FATS -->
+              <article
+                class="macro-calculator__result macro-calculator__result--fats"
+              >
+                <span
+                  class="macro-calculator__result-icon macro-calculator__result-icon--fats"
+                  aria-hidden="true"
+                >
+                  <img
+                    class="macro-calculator__result-icon-fats"
+                    src="./media/macro-calculator__result-icon-fats.png"
+                    alt="icon"
+                /></span>
+
+                <div class="macro-calculator__result-content">
+                  <h3 class="macro-calculator__result-title">FATS</h3>
+
+                  <p class="macro-calculator__result-number" id="result-fats">
+                    —
+                  </p>
+
+                  <p class="macro-calculator__result-unit">g / day</p>
+
+                  <p class="macro-calculator__result-percent">
+                    <span id="result-fats-percent">—</span>
+                    % of calories
+                  </p>
+                </div>
+              </article>
+            </div>
+          </section>
+        </section>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__inner animation-item animation-item--bottom">
+        <div class="footer__info">
+          <!-- LOGO -->
+          <div class="footer__logo-block">
+            <img class="footer__logo-img" src="./media/logo.svg" alt="logo" />
+            <span class="footer__logo-text">PrimalTraining</span>
+          </div>
+
+          <div class="footer__bottom">
+            <!-- CONTACT -->
+            <div class="footer__contact">
+              <h5 class="footer__contact-title">CONTACT</h5>
+              <a
+                class="footer__contact-email"
+                href="mailto:PrimalTraining@mail.com"
+                >Email: PrimalTraining@mail.com</a
+              >
+              <a class="footer__contact-phone" href="tel:(203) 555-5555"
+                >Phone: (203) 555-5555</a
+              >
+            </div>
+
+            <!-- OPENING HOURS -->
+            <div class="footer__hours">
+              <h5 class="footer__hours-title">OPENING HOURS</h5>
+              <div class="footer__hours-wrapper">
+                <ul class="footer__hours-days">
+                  <li class="footer__hours-day">MON – FRI</li>
+                  <li class="footer__hours-day">SATURDAYS</li>
+                  <li class="footer__hours-day">SUNDAYS</li>
+                  <li class="footer__hours-day">HOLIDAYS</li>
+                </ul>
+                <ul class="footer__hours-times">
+                  <li class="footer__hours-time">5:00 – 23:00</li>
+                  <li class="footer__hours-time">8:00 – 16:00</li>
+                  <li class="footer__hours-time">8:00 – 13:00</li>
+                  <li class="footer__hours-time">8:00 – 16:00</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- SOCIAL -->
+            <div class="footer__social">
+              <h5 class="footer__social-title">SOCIAL</h5>
+              <ul class="footer__social-list">
+                <li class="footer__social-item">
+                  <a
+                    class="footer__social-link"
+                    href="https://www.instagram.com/"
+                    target="_blank"
+                    >Instagram</a
+                  >
+                </li>
+                <li class="footer__social-item">
+                  <a
+                    class="footer__social-link"
+                    href="https://x.com/"
+                    target="_blank"
+                    >X</a
+                  >
+                </li>
+                <li class="footer__social-item">
+                  <a
+                    class="footer__social-link"
+                    href="https://www.linkedin.com/"
+                    target="_blank"
+                    >LinkedIn</a
+                  >
+                </li>
+                <li class="footer__social-item">
+                  <a
+                    class="footer__social-link"
+                    href="https://open.spotify.com/"
+                    target="_blank"
+                    >Spotify</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
+  <script src="./script.js"></script>
+</html>
